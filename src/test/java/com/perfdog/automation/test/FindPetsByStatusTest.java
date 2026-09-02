@@ -7,9 +7,6 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.everyItem;
 
-/**
- * Requirement 3: List all pets that have "available" status.
- */
 public class FindPetsByStatusTest extends BaseTest {
 
     @Test
