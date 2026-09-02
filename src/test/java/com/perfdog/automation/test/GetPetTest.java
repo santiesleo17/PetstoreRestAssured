@@ -6,9 +6,6 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-/**
- * Requirement 4: Query data of a specific pet.
- */
 public class GetPetTest extends BaseTest {
 
     @Test
