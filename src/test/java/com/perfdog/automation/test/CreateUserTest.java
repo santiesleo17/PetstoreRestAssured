@@ -12,7 +12,7 @@ public class CreateUserTest extends BaseTest {
 
     @Test
     public void testCreateUser() {
-        User user = new User(101, "john_doe", "John", "Doe", "john@example.com", "pass123", "1234567890", 1);
+        User user = new User(101, "santiesleo", "Santiago", "Escobar", "santiesleo17@gmail .com", "pass123", "1234567890", 1);
 
         given()
                 .contentType(ContentType.JSON)
